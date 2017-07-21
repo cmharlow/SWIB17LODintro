@@ -21,6 +21,18 @@ We ask that all participants come to the workshop ready to dive in by reviewing 
 
 ## Workshop Schedule
 
+| Time | Workshop Topic
+| ---- | --------------
+| 13:00 - 13:15 | General Workshop Introduction |
+| 13:15 - 14:00 | RDF Introduction: Create Your Graph |
+| 14:00 - 14:30 | Linked Data Intro.: Link Your Graph to Your Group |
+| 14:30 - 15:15 | Linked Data & Semantic Web: Expanding Your Graph |
+| 15:15 - 15:45 | 30 minute break |
+| 15:45 - 16:15 | Linked Open Data & Licensing: License Your Graph |
+| 16:15 - 17:15 | Linked Data Experimentation: SPARQL & Vis. |
+| 17:15 - 17:30 | 15 minute break |
+| 17:30 - 18:00 | Linked Data Examples, Resources & Datasets |
+| 18:00 - 19:00 | Wrap-up & Help Moving Forward |
 
 
 ## Contact Before, During, After the Workshop
