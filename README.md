@@ -1,7 +1,7 @@
 # [SWIB 2017](https://www.swib.org/swib17) Introduction to Linked Open Data Workshop
 * When: Monday, December 4th, 2017, 13:00 - 18:00
 * Where: [Katholische Akademie Hamburg](http://www.openstreetmap.org/?mlat=53.54888&mlon=9.98280#map=17/53.54888/9.98280), Room to be announced at venue
-* Workshop Materials: [bit.ly/SWIB17LODintro](https://bit.ly/SWIB17LODintro)
+* Workshop Materials: [bit.ly/SWIBLODintro](https://bit.ly/SWIBLODintro)
 
 Welcome to the open repository, documentation and materials for the SWIB 2017 Introduction to Linked Open Data (LOD) Workshop. Please feel free to reuse, fork, extend, open issues / questions on, or whatever with this workshop information.
 
