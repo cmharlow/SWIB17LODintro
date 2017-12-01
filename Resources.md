@@ -15,7 +15,7 @@
 - Group 7's Pad: https://pad.riseup.net/p/swib-17-ws-7
 - Group 8's Pad: https://pad.riseup.net/p/swib-17-ws-8
 - Facilitators/Demo Etherpad: https://pad.riseup.net/p/swib-17-ws-facilitators  (live demo etherpad)
-- Backup/Complete Etherpad: https://pad.riseup.net/p/swib-17-ws-done
+- Backup/Complete Etherpad: https://pad.riseup.net/p/swib-17-ws-done (completed demo etherpad)
 
 ### Visualization & Query Services
 
