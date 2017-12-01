@@ -23,7 +23,7 @@ This introductory workshop aims to introduce the fundamentals of linked data tec
 
 ## Facilitators
 
-- Uldis Bojārs: National Library of Latvia, captsolo@gmail.com, [Twitter: @CaptSolo](https://twitter.com/CaptSolo) ; [GitHub: @captsolo](https://github.com/captsolo)
+- Uldis Bojārs: National Library of Latvia, uldis.bojars@gmail.com, [Twitter: @CaptSolo](https://twitter.com/CaptSolo) ; [GitHub: @captsolo](https://github.com/captsolo)
 - Christina Harlow: Stanford University Library, cmharlow@stanford.edu, [Twitter: @cm_harlow](https://twitter.com/cm_harlow) ; [GitHub: @cmh2166](https://github.com/cmh2166)
 - Huda Khan: Cornell University Library, hjk54@cornell.edu, [Twitter: @hudajkhan](https://twitter.com/hudajkhan) ; [GitHub: @hudajkhan](https://github.com/hudajkhan)
 
