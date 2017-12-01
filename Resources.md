@@ -1,26 +1,24 @@
 # SWIB 2017 Intro to Linked Open Data Workshop Resources
 
-**Note: this is being heavily rewritten / links will change for the 2017 workshop.**
-
-- Workshop GitHub repository (central source of information): https://github.com/cmh2166/SWIB17LODintro
-- Workshop Google Drive (if used): http://bit.ly/SWIB16LODintro
+- Workshop GitHub repository (central source of information): http://bit.ly/SWIBLODintro
+- Live Workshop Google Slides: http://bit.ly/SWIBLODintroSlides
 
 ### Group Etherpads
 
-- Link to Etherpad for workshop data generation (http://etherpad.lobid.org/p/swib16-ws)
-- Group 1's Etherpad: http://etherpad.lobid.org/p/swib16-ws-a
-- Group 2's Etherpad: http://etherpad.lobid.org/p/swib16-ws-b
-- Group 3's Etherpad: http://etherpad.lobid.org/p/swib16-ws-c
-- Group 4's Etherpad: http://etherpad.lobid.org/p/swib16-ws-d
-- Group 5's Etherpad: http://etherpad.lobid.org/p/swib16-ws-e
-- Group 6's Etherpad: http://etherpad.lobid.org/p/swib16-ws-f
-- Group 7's Etherpad: http://etherpad.lobid.org/p/swib16-ws-g
-- Facilitators/Demo Etherpad: http://etherpad.lobid.org/p/swib16-ws-z  (live demo etherpad)
-- Backup/Complete Etherpad: http://etherpad.lobid.org/p/swib16-ws-h
+- All Etherpad links for this workshop: https://pad.riseup.net/p/swib-17-ws
+- Group 1's Pad: https://pad.riseup.net/p/swib-17-ws-1
+- Group 2's Pad: https://pad.riseup.net/p/swib-17-ws-2
+- Group 3's Pad: https://pad.riseup.net/p/swib-17-ws-3
+- Group 4's Pad: https://pad.riseup.net/p/swib-17-ws-4
+- Group 5's Pad: https://pad.riseup.net/p/swib-17-ws-5
+- Group 6's Pad: https://pad.riseup.net/p/swib-17-ws-6
+- Group 7's Pad: https://pad.riseup.net/p/swib-17-ws-7
+- Group 8's Pad: https://pad.riseup.net/p/swib-17-ws-8
+- Facilitators/Demo Etherpad: https://pad.riseup.net/p/swib-17-ws-facilitators  (live demo etherpad)
+- Backup/Complete Etherpad: https://pad.riseup.net/p/swib-17-ws-done
 
 ### Visualization & Query Services
 
-- LODLive Visualization: http://graphthinking.com/~fo/LodLive/app_en.html?http://etherpad.lobid.org/p/swib16-ws-b#ag
+- LODLive Visualization: TBD
 - LODLive Visualization Backup: http://en.lodlive.it/?http://dbpedia.org/resource/Riga
-- Fuseki (lobid): http://fuseki.lobid.org/
-- Fuseki Backup (cmh2166): http://cmh2166.webfactional.com:20761/index.html (username: fuseki / password: SW1B2016workshop)
+- Fuseki Triplestore Interface: TBD
