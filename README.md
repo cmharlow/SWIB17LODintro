@@ -18,7 +18,7 @@ This workshop is built off of the work of Felix Ostrowski ([@literarymachine](ht
 
 ## Workshop Abstract
 
-This introductory workshop aims to introduce the fundamentals of linked data technologies on the one hand, and the basic issues of open data on the other. The RDF data model will be discussed, along with the concepts of dereferenceable URIs and common vocabularies. The participants will continuously create and refine RDF documents about themselves including links to other participants to strengthen their knowledge of the topic. Based on the data created, the advantages of modeling in RDF and publishing linked data will be shown. On a side track, Open Data principles will be introduced, discussed and applied to the content that is being created during the workshop.
+This introductory workshop aims to introduce the fundamentals of linked data technologies on the one hand, and the basic issues of open data on the other. The RDF data model will be discussed, along with the concepts of dereferenceable URIs and common vocabularies. The participants will continuously create and refine RDF documents about themselves as well as engage in linking their RDF documents to those of other participants to strengthen their knowledge of how linked data operates. Based on the data created, the advantages of modeling in RDF and publishing linked data will be shown. On a side track, Open Data principles will be introduced, discussed and applied to the content that is being created during the workshop.
 
 ## Facilitators
 
@@ -28,22 +28,22 @@ This introductory workshop aims to introduce the fundamentals of linked data tec
 
 ## Workshop Schedule
 
-| Time          | Workshop Topic                                      |
-| ------------- | --------------------------------------------------- |
-| 13:00 - 13:15 | General Workshop Introduction                       |
-| 13:15 - 14:00 | RDF Introduction: Create Your Graph                 |
-| 14:00 - 14:30 | Linked Data Intro.: Link Your Graph to Your Group   |
-| 14:30 - 15:15 | Linked Data & Semantic Web: Expanding Your Graph    |
-| 15:15 - 15:45 | *30 minute break, cake in foyer*                    |
-| 15:45 - 16:15 | Linked Open Data & Licensing: License Your Graph    |
-| 16:15 - 17:15 | Linked Data Experimentation: SPARQL & Visualization |
-| 17:15 - 17:30 | *15 minute break*                                   |
-| 17:30 - 18:00 | Linked Data Examples, Resources & Datasets          |
-| 18:00 - 19:00 | Wrap-up & Help Moving Forward                       |
+| Time           | Workshop Topic                                      |
+| -------------- | --------------------------------------------------- |
+| 13:00 - 13:15  | General Workshop Introduction                       |
+| 13:15 - 14:00  | RDF Introduction: Create Your Graph                 |
+| 14:00 - 14:30  | Linked Data Intro.: Link Your Graph to Your Group   |
+| 14:30 - 15:30  | Linked Data & Semantic Web: Expanding Your Graph    |
+| 15:30 - 16:00  | *30 minute break, cake in foyer*                    |
+| 16:00 - 16:15  | Linked Open Data & Licensing: License Your Graph    |
+| 16:15 - 17:15  | Linked Data Experimentation: SPARQL & Visualization |
+| 17:15 - 17:30  | *15 minute break*                                   |
+| 17:30 - 18:00  | Linked Data Examples, Resources & Datasets          |
+| 18:00 - 19:00* | Wrap-up & Help Moving Forward (optional)            |
 
 ## Participant Requirements
 
-Participants are strongly recommended (but not required) to bring laptops with internet connection and modern web browser (i.e. not Internet Explorer). We are working to have a space that supports group work (so be prepared to take part and move around).  If you have any questions about or issues with the requested set-up, please contact us using the [communication methods detailed above](#contact-before-during-after-the-workshop).
+Participants are strongly recommended (but not required) to bring laptops with internet connection and modern web browser (i.e. not Internet Explorer). We are working to have a space that supports group work (so be prepared to take part and move around).  If you have any questions about or issues with the requested set-up, please contact us using the [communication methods detailed below](#contact-before-during-after-the-workshop).
 
 ## Our Expectations of You
 
