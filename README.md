@@ -1,11 +1,11 @@
-# SWIB 2017 Introduction to Linked Open Data Workshop
-### When: Monday, December 4th, 2017, 13:00 - 19:00
-### Where: Katholische Akademie Hamburg, Room TBA (to be announced)
-### Workshop Materials: bit.ly/SWIB17LODintro
+# [SWIB 2017](https://www.swib.org/swib17) Introduction to Linked Open Data Workshop
+* When: Monday, December 4th, 2017, 13:00 - 18:00
+* Where: [Katholische Akademie Hamburg](http://www.openstreetmap.org/?mlat=53.54888&mlon=9.98280#map=17/53.54888/9.98280), Room to be announced at venue
+* Workshop Materials: [bit.ly/SWIBLODintro](https://bit.ly/SWIBLODintro)
 
 Welcome to the open repository, documentation and materials for the SWIB 2017 Introduction to Linked Open Data (LOD) Workshop. Please feel free to reuse, fork, extend, open issues / questions on, or whatever with this workshop information.
 
-This workshop is built off of the work of Felix Ostrowski ([@literarymachine](https://github.com/literarymachine)) and Adrian Pohl ([@acka47](https://github.com/acka47)). See their previous workshop details here: https://github.com/literarymachine/lod-workshop
+This workshop is built off of the work of Felix Ostrowski ([@literarymachine](https://github.com/literarymachine)) and Adrian Pohl ([@acka47](https://github.com/acka47)). See their previous workshop details here: https://github.com/literarymachine/lod-workshop. This workshop was enhanced and expanded by Jana Hentschke as well ([@jentschk](https://twitter.com/jentschk)), who has facilitated this workshop in the past.
 
 **Table of Contents**
 
@@ -22,25 +22,24 @@ This introductory workshop aims to introduce the fundamentals of linked data tec
 
 ## Facilitators
 
-- Uldis Bojars: National Library of Latvia, captsolo@gmail.com, [Twitter: @CaptSolo](https://twitter.com/CaptSolo) ; [GitHub: @captsolo](https://github.com/captsolo)
+- Uldis Bojārs: National Library of Latvia, captsolo@gmail.com, [Twitter: @CaptSolo](https://twitter.com/CaptSolo) ; [GitHub: @captsolo](https://github.com/captsolo)
 - Christina Harlow: Stanford University Library, cmharlow@stanford.edu, [Twitter: @cm_harlow](https://twitter.com/cm_harlow) ; [GitHub: @cmh2166](https://github.com/cmh2166)
-- Jana Hentschke: German National Library, J.Hentschke@dnb.de, [Twitter: @junicatalo](https://twitter.com/junicatalo) ; [GitHub: @jentschk](https://twitter.com/jentschk)
 - Huda Khan: Cornell University Library, hjk54@cornell.edu, [Twitter: @hudajkhan](https://twitter.com/hudajkhan) ; [GitHub: @hudajkhan](https://github.com/hudajkhan)
 
 ## Workshop Schedule
 
-| Time          | Workshop Topic                                      |
-| ------------- | --------------------------------------------------- |
-| 13:00 - 13:15 | General Workshop Introduction                       |
-| 13:15 - 14:00 | RDF Introduction: Create Your Graph                 |
-| 14:00 - 14:30 | Linked Data Intro.: Link Your Graph to Your Group   |
-| 14:30 - 15:30 | Linked Data & Semantic Web: Expanding Your Graph    |
-| 15:30 - 16:00 | *30 minute break*                                   |
-| 16:00 - 16:15 | Linked Open Data & Licensing: License Your Graph    |
-| 16:15 - 17:15 | Linked Data Experimentation: SPARQL & Visualization |
-| 17:15 - 17:30 | *15 minute break*                                   |
-| 17:30 - 18:00 | Linked Data Examples, Resources & Datasets          |
-| 18:00 - 19:00 | Wrap-up & Help Moving Forward                       |
+| Time           | Workshop Topic                                      |
+| -------------- | --------------------------------------------------- |
+| 13:00 - 13:15  | General Workshop Introduction                       |
+| 13:15 - 14:00  | RDF Introduction: Create Your Graph                 |
+| 14:00 - 14:30  | Linked Data Intro.: Link Your Graph to Your Group   |
+| 14:30 - 15:30  | Linked Data & Semantic Web: Expanding Your Graph    |
+| 15:30 - 16:00  | *30 minute break, cake in foyer*                    |
+| 16:00 - 16:15  | Linked Open Data & Licensing: License Your Graph    |
+| 16:15 - 17:15  | Linked Data Experimentation: SPARQL & Visualization |
+| 17:15 - 17:30  | *15 minute break*                                   |
+| 17:30 - 18:00  | Linked Data Examples, Resources & Datasets          |
+| 18:00 - 19:00* | Wrap-up & Help Moving Forward (optional)            |
 
 ## Participant Requirements
 
