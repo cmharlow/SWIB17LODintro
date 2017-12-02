@@ -1,0 +1,312 @@
+@prefix z: <https://pad.riseup.net/p/swib-17-ws-facilitators#> .
+@prefix schema: <http://schema.org/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix a: <http://etherpad.lobid.org/p/swib-16-ws-a#> .
+@prefix b: <http://etherpad.lobid.org/p/swib16-ws-b#> .
+@prefix c: <http://etherpad.lobid.org/p/swib16-ws-c#> .
+@prefix d: <http://etherpad.lobid.org/p/swib16-ws-d#> .
+@prefix e: <http://etherpad.lobid.org/p/swib16-ws-e#> .
+@prefix f: <http://etherpad.lobid.org/p/swib16-ws-f#> .
+@prefix g: <http://etherpad.lobid.org/p/swib16-ws-g#> .
+@prefix z-old: <http://etherpad.lobid.org/p/swib16-ws-z#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<> dcterms:creator z:ub .
+<> dcterms:creator z:ch .
+<> dcterms:creator z:hk .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+z:ub schema:name "Uldis" .
+z:ub rdfs:label "Uldis" .
+z:ub schema:location dbr:Riga .
+z:ub schema:knows z:ch .
+z:ub schema:knows z:hk .
+z:ub foaf:interest dbr:Music .
+z:ub foaf:interest dbr:Semantic_Web .
+
+z:ch schema:name "Christina" .
+z:ch rdfs:label "Christina" .
+z-old:ch owl:sameAs z:ch .
+z:ch schema:location dbr:San_Francisco .
+z:ch schema:knows z:ub, z:hk, z-old:jh, b:oj, b:aj, b:ml, c:ns, c:rr.
+z:ch foaf:interest dbr:Music .
+z:ch foaf:interest wikidata:Q28865 .
+
+z:hk schema:name "Huda" .
+z:hk rdfs:label "Huda" .
+z:hk schema:location wikidata:Q217346 .
+z:hk schema:knows z:ub .
+z:hk schema:knows z:ch .
+z:hk foaf:interest dbr:Music .
+
+<> dcterms:creator z-old:ch .
+<> dcterms:creator z-old:ub .
+<> dcterms:creator z-old:jh .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+z-old:ub schema:name "Uldis" .
+z-old:ub rdfs:label "Uldis" .
+z-old:ub owl:sameAs z:ub .
+z-old:ub schema:location dbr:Riga .
+z-old:ub schema:knows z:jh .
+z-old:ub schema:knows z:ch .
+
+z-old:ub foaf:interest dbr:Music.
+z-old:ub foaf::interest dbr:Semantic_Web .
+
+z-old:jh schema:name "Jana" .
+z-old:jh rdfs:label "Jana" .
+z-old:jh schema:location "Frankfurt" .
+z-old:jh schema:knows z:ub .
+z-old:jh schema:knows z:ch .
+z-old:jh schema:knows f:bb .
+z-old:jh foaf:interest dbr:Music .
+
+z-old:ch schema:name "Christina" .
+z-old:ch rdfs:label "Christina" .
+z-old:ch schema:location <http://www.wikidata.org/entity/Q217346> .
+z-old:ch schema:knows z:ub .
+z-old:ch schema:knows z:jh .
+z-old:ch foaf:interest dbr:Semantic_Web .
+z-old:ch foaf:interest <http://www.wikidata.org/entity/Q28865> .
+
+b:oj schema:name "Olaf" .
+b:oj rdfs:label "Olaf" .
+b:oj schema:location dbr:The_Hague .
+b:oj foaf:interest dbr:Swimming .
+b:oj foaf:interest wikidata:Q734576 .
+
+<> dcterms:creator b:oj .
+
+b:ag schema:name "Astrid".
+b:ag rdfs:label "Astrid".
+b:ag schema:location "Bonn".
+b:ag schema:knows b:oj.
+b:ag schema:knows b:ml.
+b:ag schema:knows e:bb.
+b:ag schema:knows a:pl.
+b:ag schema:knows c:ns.
+b:ag schema:location dbr:Bonn.
+b:ag foaf:interest dbr:Music.
+b:ag foaf:interest dbr:Guiseppe_Verdi.
+b:ml schema:name "Miklós".
+b:ml rdfs:label "Miklós".
+b:ml schema:location dbr:Budapest.
+b:ml schema:knows b:oj.
+b:ml schema:knows b:ag.
+b:ml schema:knows e:be.
+b:ml schema:knows c:ns.
+c:ns schema:knows b:ml.
+b:ml schema:knows e:ml.
+b:ml foaf:interest dbr:Houseboat.
+
+c:rr schema:knows b:oj.
+b:oj schema:knows e:sp.
+b:oj schema:knows b:ag.
+b:oj schema:knows b:ml.
+
+e:ml schema:name "Eva".
+e:ml rdfs:label "Eva".
+e:ml schema:location "Frankfurt".
+
+<> dcterms:creator c:rr .
+<> dcterms:creator c:sp .
+<> dcterms:creator c:va .
+<> dcterms:creator c:ns .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0> .
+
+
+c:rr schema:name "Renee" .
+c:rr rdfs:label "Renee" .
+c:rr schema:location "Calgary"  .
+c:rr schema:knows c:sp .
+c:rr schema:knows c:va .
+c:rr schema:knows c:ns .
+c:rr schema:knows b:oj .
+b:oj schema:knows c:rr .
+c:rr schema:location wikidata:Q36312 .
+c:rr foaf:interest dbr:Music .
+
+c:sp schema:name "Stanko" .
+c:sp rdfs:label "Stanko" .
+c:sp schema:location "Maribor" .
+c:sp schema:knows c:rr .
+c:sp schema:knows c:va .
+c:sp schema:knows c:ns .
+c:sp schema:knows  e:lh .
+b:oj schema:knows c:sp .
+c:sp schema:knows b:oj .
+a:lr schema:knows c:sp .
+c:sp schema:knows a:lr .
+c:sp schema:knows e:lh .
+e:ih schema:knows c:sp .
+c:sp schema:location wikidata:Q1010 .
+c:sp foaf:interest dbr:Music .
+
+
+c:va schema:name "Volker" .
+c:va rdfs:label "Volker" .
+c:va schema:location "Osnabrueck" .
+c:va schema:knows c:rr .
+c:va schema:knows c:sp .
+c:va schema:knows c:ns .
+c:va schema:knows f:kp .
+c:va schema:location wikidata:Q2916 .
+c:va foaf:interest wikidata:Q388 .
+c:va foaf:interest dbr:Linux .
+
+f:kp schema:knows c:va .
+
+c:ns schema:name "Natalie" .
+c:ns rdfs:label "Natalie" .
+c:ns schema:location "Kerpen" .
+c:ns schema:knows c:rr .
+c:ns schema:knows c:sp .
+c:ns schema:knows c:va .
+c:ns foaf:interest dbr:Music .
+
+<> dcterms:creator e:ml .
+
+e:ml schema:name "Michael" .
+e:ml rdfs:label "Michael" .
+e:ml schema:location geo:5327684 .
+e:ml schema:knows e:lh .
+e:ml schema:knows e:ev .
+e:ml schema:knows e:bb .
+e:ml schema:knows e:da .
+e:ml schema:knows a:fb .
+e:ml foaf:interest dbr:Chess .
+e:ml foaf:interest dbr:Music .
+
+e:da schema:name "Dimitra" .
+e:da rdfs:label "Dimitra" .
+e:da schema:location dbr:Rotterdam .
+e:da schema:knows e:ml .
+e:da schema:knows e:bb .
+e:da schema:knows e:ev .
+e:da schema:knows e:lh .
+e:da schema:knows f:hs .
+e:da schema:knows a:gc .
+e:da foaf:interest dbr:Film .
+e:da foaf:interest <https://www.wikidata.org/wiki/Q61509> .
+e:da foaf:interest dbr:Linked_data .
+<> dcterms:creator e:da .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+e:bb schema:name "Barbara" .
+e:bb rdfs:label "Barbara" .
+e:bb schema:location "Goettingen" .
+e:bb schema:knows e:da .
+e:bb schema:knows e:ml .
+e:bb schema:knows e:ev .
+e:bb schema:knows e:lh .
+e:bb schema:knows b:ag .
+e:bb schema:knows a:gc .
+e:bb foaf:interest <https://www.wikidata.org/wiki/Q33748> .
+
+e:ev schema:name "Eva".
+e:ev rdfs:label "Eva".
+e:ev schema:location "Frankfurt".
+e:ev schema:knows e:da .
+e:ev schema:knows e:ml .
+e:ev schema:knows e:bb .
+e:ev schema:knows e:lh .
+e:ev schema:knows f:sh .
+e:ev schema:location "https://en.wikipedia.org/wiki/Frankfurt" .
+e:ev foaf:interest <https://en.wikipedia.org/wiki/Cockatoo> .
+<> dcterms:creator e:ev .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0> .
+
+
+e:lh schema:name "Laura".
+e:lh rdfs:label "Laura".
+e:lh schema:location "Bonn".
+e:lh schema:location <https://de.wikipedia.org/wiki/Bonn> .
+e:lh schema:knows e:bb .
+e:lh schema:knows e:ml .
+e:lh schema:knows e:da .
+e:lh schema:knows e:ml .
+e:lh schema:knows c:va .
+e:lh schema:knows a:gc .
+e:lh foaf:interest dbr:music.
+e:lh foaf:interest dbr:film.
+<> dcterms:creator e:lh.
+<> schema:license <https://creativecommons.org/licenses/by/2.0/de/>.
+
+<> dcterms:creator f:kp .
+<> dcterms:creator f:sh .
+<> dcterms:creator f:hs .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+f:hs schema:name "Helena" .
+f:hs rdfs:label "Helena" .
+f:hs schema:location dbr:Stockholm .
+f:hs schema:knows f:sh .
+f:hs schema:knows f:kp .
+f:hs schema:knows e:da .
+f:hs schema:knows e:ev .
+f:hs foaf:interest dbr:Gardening .
+f:hs foaf:interest dbr:Linked_data .
+f:hs foaf:interest dbr:Weather .
+
+f:sh schema:name "Steve" .
+f:sh rdfs:label "Steve" .
+f:sh schema:location dbr:Doha .
+f:sh schema:knows f:hs .
+f:sh schema:knows f:kp .
+f:sh schema:knows g:ae .
+f:sh foaf:interest dbr:Film .
+f:sh foaf:interest dbr:Folk_music .
+
+f:kp schema:name "Karin" .
+f:kp rdfs:label "Karin" .
+f:kp schema:location dbr:Stockholm .
+f:kp schema:knows f:hs .
+f:kp schema:knows f:sh .
+f:kp schema:knows c:va .
+f:kp schema:knows g:js .
+f:kp foaf:interest dbr:Short_story .
+f:kp foaf:interest <http://dbpedia.org/resource/Americana_(music)> .
+f:kp foaf:interest dbr:Irish_literature .
+f:kp foaf:interest dbr:Archipelago .
+f:kp foaf:interest dbr:Association_football .
+
+<> dcterms:creator g:ls .
+<> dcterms:creator g:ae .
+<> dcterms:creator g:js .
+<> schema:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+g:ls schema:name "Lisa" .
+g:ls rdfs:label "Lisa" .
+g:ls schema:location dbr:Gothenburg .
+g:ls schema:knows g:ae .
+g:ls schema:knows g:js .
+g:ls schema:knows c:ns .
+g:ls schema:knows a:gc .
+g:ls foaf:interest dbr:Musical_theatre .
+
+g:ae schema:name "Amr" .
+g:ae rdfs:label "Amr" .
+g:ae schema:location dbr:Qatar .
+g:ae schema:knows g:js .
+g:ae schema:knows g:ls .
+g:ae schema:knows f:sh .
+g:ae foaf:interest dbr:Squash .
+
+
+g:js schema:name "João" .
+g:js rdfs:label "João" .
+g:js schema:location "Helsinki" .
+g:js schema:location dbr:Helsinki .
+g:js schema:knows  g:ls .
+g:js schema:knows a:ae .
+g:js schema:knows f:kp .
+g:js foaf:interest dbr:Cycling .
+g:js foaf:interest <https://www.wikidata.org/wiki/Q54837> .
+g:js foaf:interest dbr:Cloud_computing .
+g:js foaf:interest <http://dbpedia.org/resource/Docker_(software)> .
