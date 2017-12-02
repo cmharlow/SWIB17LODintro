@@ -16,9 +16,10 @@
 - Group 8's Pad: https://pad.riseup.net/p/swib-17-ws-8
 - Facilitators/Demo Etherpad: https://pad.riseup.net/p/swib-17-ws-facilitators  (live demo etherpad)
 - Backup/Complete Etherpad: https://pad.riseup.net/p/swib-17-ws-done (completed demo etherpad)
+- Wikipedia: https://en.wikipedia.org/wiki/
 
 ### Visualization & Query Services
 
-- LODLive Visualization: TBD
+- LODLive Visualization: http://cmharlow.webfactional.com/lodlive/app_en.html
 - LODLive Visualization Backup: http://en.lodlive.it/?http://dbpedia.org/resource/Riga
-- Fuseki Triplestore Interface: TBD
+- Fuseki Triplestore Interface: http://cmharlow.webfactional.com/fuseki/dataset.html?tab=info&ds=/swib-workshop
