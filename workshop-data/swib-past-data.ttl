@@ -1,0 +1,332 @@
+@prefix a: <http://etherpad.lobid.org/p/swib-16-ws-a#> .
+@prefix b: <http://etherpad.lobid.org/p/swib16-ws-b#> .
+@prefix c: <http://etherpad.lobid.org/p/swib16-ws-c#> .
+@prefix d: <http://etherpad.lobid.org/p/swib16-ws-d#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix e: <http://etherpad.lobid.org/p/swib16-ws-e#> .
+@prefix f: <http://etherpad.lobid.org/p/swib16-ws-f#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix g: <http://etherpad.lobid.org/p/swib16-ws-g#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix z: <https://pad.riseup.net/p/swib-17-ws-facilitators#> .
+@prefix z-old: <http://etherpad.lobid.org/p/swib16-ws-z#> .
+
+<file:///Users/sul.cmharlow/Presentations/SWIB17LODintro/workshop-data/swib-past-data.ttl> dcterms:creator b:oj,
+        c:ns,
+        c:rr,
+        c:sp,
+        c:va,
+        e:da,
+        e:ev,
+        e:lh,
+        e:ml,
+        f:hs,
+        f:kp,
+        f:sh,
+        g:ae,
+        g:js,
+        g:ls,
+        z-old:ch,
+        z-old:jh,
+        z-old:ub,
+        z:ch,
+        z:hk,
+        z:ub ;
+    schema:license <https://creativecommons.org/licenses/by/2.0/de/>,
+        <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+e:ih schema:knows c:sp .
+
+dbr:Bonn dbo:country dbr:Germany ;
+    dbo:populationTotal "311287"^^xsd:nonNegativeInteger,
+        "311287" .
+
+dbr:Budapest dbo:country dbr:Hungary ;
+    dbo:populationTotal "1759407"^^xsd:nonNegativeInteger,
+        "1759407" .
+
+dbr:Doha dbo:country dbr:Qatar ;
+    dbo:populationTotal "1351000"^^xsd:nonNegativeInteger,
+        "1351000" .
+
+dbr:Gothenburg dbo:country dbr:Sweden ;
+    dbo:populationTotal "549789"^^xsd:nonNegativeInteger,
+        "549789" .
+
+dbr:San_Francisco dbo:country dbr:United_States ;
+    dbo:populationTotal "864816"^^xsd:nonNegativeInteger,
+        "864816" .
+
+a:lr schema:knows c:sp .
+
+z-old:ch rdfs:label "Christina" ;
+    schema:knows z:jh,
+        z:ub ;
+    schema:location wikidata:Q217346 ;
+    schema:name "Christina" ;
+    owl:sameAs z:ch ;
+    foaf:interest dbr:Semantic_Web,
+        wikidata:Q28865 .
+
+z-old:ub rdfs:label "Uldis" ;
+    schema:knows z:ch,
+        z:jh ;
+    schema:location dbr:Riga ;
+    schema:name "Uldis" ;
+    owl:sameAs z:ub ;
+    ns1:interest dbr:Semantic_Web ;
+    foaf:interest dbr:Music .
+
+dbr:Riga dbo:country dbr:Latvia ;
+    dbo:populationTotal "696593"^^xsd:nonNegativeInteger,
+        "696593" .
+
+dbr:Stockholm dbo:country dbr:Sweden ;
+    dbo:populationTotal "925934"^^xsd:nonNegativeInteger,
+        "925934" .
+
+z-old:jh rdfs:label "Jana" ;
+    schema:knows f:bb,
+        z:ch,
+        z:ub ;
+    schema:location "Frankfurt" ;
+    schema:name "Jana" ;
+    foaf:interest dbr:Music .
+
+b:ag rdfs:label "Astrid" ;
+    schema:knows a:pl,
+        b:ml,
+        b:oj,
+        c:ns,
+        e:bb ;
+    schema:location dbr:Bonn,
+        "Bonn" ;
+    schema:name "Astrid" ;
+    foaf:interest dbr:Guiseppe_Verdi,
+        dbr:Music .
+
+g:ae rdfs:label "Amr" ;
+    schema:knows f:sh,
+        g:js,
+        g:ls ;
+    schema:location dbr:Qatar ;
+    schema:name "Amr" ;
+    foaf:interest dbr:Squash .
+
+g:ls rdfs:label "Lisa" ;
+    schema:knows a:gc,
+        c:ns,
+        g:ae,
+        g:js ;
+    schema:location dbr:Gothenburg ;
+    schema:name "Lisa" ;
+    foaf:interest dbr:Musical_theatre .
+
+z:hk rdfs:label "Huda" ;
+    schema:knows z:ch,
+        z:ub ;
+    schema:location wikidata:Q217346 ;
+    schema:name "Huda" ;
+    foaf:interest dbr:Music .
+
+b:ml rdfs:label "Miklós" ;
+    schema:knows b:ag,
+        b:oj,
+        c:ns,
+        e:be,
+        e:ml ;
+    schema:location dbr:Budapest ;
+    schema:name "Miklós" ;
+    foaf:interest dbr:Houseboat .
+
+f:hs rdfs:label "Helena" ;
+    schema:knows e:da,
+        e:ev,
+        f:kp,
+        f:sh ;
+    schema:location dbr:Stockholm ;
+    schema:name "Helena" ;
+    foaf:interest dbr:Gardening,
+        dbr:Linked_data,
+        dbr:Weather .
+
+g:js rdfs:label "João" ;
+    schema:knows a:ae,
+        f:kp,
+        g:ls ;
+    schema:location dbr:Helsinki,
+        "Helsinki" ;
+    schema:name "João" ;
+    foaf:interest dbr:Cloud_computing,
+        dbr:Cycling,
+        <http://dbpedia.org/resource/Docker_(software)>,
+        <https://www.wikidata.org/wiki/Q54837> .
+
+e:bb rdfs:label "Barbara" ;
+    schema:knows a:gc,
+        b:ag,
+        e:da,
+        e:ev,
+        e:lh,
+        e:ml ;
+    schema:location "Goettingen" ;
+    schema:name "Barbara" ;
+    foaf:interest <https://www.wikidata.org/wiki/Q33748> .
+
+e:ev rdfs:label "Eva" ;
+    schema:knows e:bb,
+        e:da,
+        e:lh,
+        e:ml,
+        f:sh ;
+    schema:location "Frankfurt",
+        "https://en.wikipedia.org/wiki/Frankfurt" ;
+    schema:name "Eva" ;
+    foaf:interest <https://en.wikipedia.org/wiki/Cockatoo> .
+
+f:kp rdfs:label "Karin" ;
+    schema:knows c:va,
+        f:hs,
+        f:sh,
+        g:js ;
+    schema:location dbr:Stockholm ;
+    schema:name "Karin" ;
+    foaf:interest <http://dbpedia.org/resource/Americana_(music)>,
+        dbr:Archipelago,
+        dbr:Association_football,
+        dbr:Irish_literature,
+        dbr:Short_story .
+
+f:sh rdfs:label "Steve" ;
+    schema:knows f:hs,
+        f:kp,
+        g:ae ;
+    schema:location dbr:Doha ;
+    schema:name "Steve" ;
+    foaf:interest dbr:Film,
+        dbr:Folk_music .
+
+b:oj rdfs:label "Olaf" ;
+    schema:knows b:ag,
+        b:ml,
+        c:rr,
+        c:sp,
+        e:sp ;
+    schema:location dbr:The_Hague ;
+    schema:name "Olaf" ;
+    foaf:interest dbr:Swimming,
+        wikidata:Q734576 .
+
+c:rr rdfs:label "Renee" ;
+    schema:knows b:oj,
+        c:ns,
+        c:sp,
+        c:va ;
+    schema:location wikidata:Q36312,
+        "Calgary" ;
+    schema:name "Renee" ;
+    foaf:interest dbr:Music .
+
+c:va rdfs:label "Volker" ;
+    schema:knows c:ns,
+        c:rr,
+        c:sp,
+        f:kp ;
+    schema:location wikidata:Q2916,
+        "Osnabrueck" ;
+    schema:name "Volker" ;
+    foaf:interest dbr:Linux,
+        wikidata:Q388 .
+
+e:da rdfs:label "Dimitra" ;
+    schema:knows a:gc,
+        e:bb,
+        e:ev,
+        e:lh,
+        e:ml,
+        f:hs ;
+    schema:location dbr:Rotterdam ;
+    schema:name "Dimitra" ;
+    foaf:interest dbr:Film,
+        dbr:Linked_data,
+        <https://www.wikidata.org/wiki/Q61509> .
+
+e:lh rdfs:label "Laura" ;
+    schema:knows a:gc,
+        c:va,
+        e:bb,
+        e:da,
+        e:ml ;
+    schema:location <https://de.wikipedia.org/wiki/Bonn>,
+        "Bonn" ;
+    schema:name "Laura" ;
+    foaf:interest dbr:film,
+        dbr:music .
+
+e:ml rdfs:label "Eva",
+        "Michael" ;
+    schema:knows a:fb,
+        e:bb,
+        e:da,
+        e:ev,
+        e:lh ;
+    schema:location <http://www.w3.org/2003/01/geo/wgs84_pos#5327684>,
+        "Frankfurt" ;
+    schema:name "Eva",
+        "Michael" ;
+    foaf:interest dbr:Chess,
+        dbr:Music .
+
+z:ch rdfs:label "Christina" ;
+    schema:knows b:aj,
+        b:ml,
+        b:oj,
+        c:ns,
+        c:rr,
+        z-old:jh,
+        z:hk,
+        z:ub ;
+    schema:location dbr:San_Francisco ;
+    schema:name "Christina" ;
+    foaf:interest dbr:Music,
+        wikidata:Q28865 .
+
+z:ub rdfs:label "Uldis" ;
+    schema:knows z:ch,
+        z:hk ;
+    schema:location dbr:Riga ;
+    schema:name "Uldis" ;
+    foaf:interest dbr:Music,
+        dbr:Semantic_Web .
+
+c:sp rdfs:label "Stanko" ;
+    schema:knows a:lr,
+        b:oj,
+        c:ns,
+        c:rr,
+        c:va,
+        e:lh ;
+    schema:location wikidata:Q1010,
+        "Maribor" ;
+    schema:name "Stanko" ;
+    foaf:interest dbr:Music .
+
+c:ns rdfs:label "Natalie" ;
+    schema:knows b:ml,
+        c:rr,
+        c:sp,
+        c:va ;
+    schema:location "Kerpen" ;
+    schema:name "Natalie" ;
+    foaf:interest dbr:Music .
+
