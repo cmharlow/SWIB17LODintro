@@ -6,7 +6,7 @@
 
 Welcome to the open repository, documentation and materials for the SWIB 2017 Introduction to Linked Open Data (LOD) Workshop. Please feel free to reuse, fork, extend, open issues / questions on, or whatever with this workshop information.
 
-This workshop is built off of the work of Felix Ostrowski ([@literarymachine](https://github.com/literarymachine)) and Adrian Pohl ([@acka47](https://github.com/acka47)). See their previous workshop details here: https://github.com/literarymachine/lod-workshop. This workshop was enhanced and expanded by Jana Hentschke as well ([@jentschk](https://twitter.com/jentschk)), who has facilitated this workshop in the past.
+This workshop is built off of the work of Felix Ostrowski ([@literarymachine](https://github.com/literarymachine)) and Adrian Pohl ([@acka47](https://github.com/acka47)). See their previous workshop details here: https://github.com/literarymachine/lod-workshop. This workshop was enhanced and expanded by Jana Hentschke as well ([@junicatalo](https://twitter.com/junicatalo)), who has facilitated this workshop in the past.
 
 **Table of Contents**
 
